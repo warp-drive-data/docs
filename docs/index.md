@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "WarpDrive"
-  text: "Documentation & Guides"
-  tagline: My great project tagline
+  name: "The Manual"
+  text: Boldly go where no App has gone before
+  tagline: "WarpDrive is the lightweight data framework for ambitious web applications — universal, typed, reactive, and ready to scale."
   actions:
     - theme: brand
       text: Markdown Examples
