@@ -24,8 +24,8 @@ export default defineConfig({
   themeConfig: {
     siteTitle: false,
     logo: {
-      dark: './logos/warp-drive-logo-gold.svg',
-      light: './logos/warp-drive-logo-dark.svg',
+      dark: '/logos/warp-drive-logo-gold.svg',
+      light: '/logos/warp-drive-logo-dark.svg',
       alt: 'WarpDrive'
     },
 
