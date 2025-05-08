@@ -5,6 +5,9 @@ export default defineConfig({
   title: "WarpDrive",
   description: "Boldly go where no App has gone before",
 
+  // just until we have the guides and docs in a better state
+  ignoreDeadLinks: true,
+
   head: [
     ['link', { rel: 'icon', href: './logos/NCC-1701-a-gold.svg' }],
     // [
