@@ -8,18 +8,27 @@ hero:
   tagline: "WarpDrive is the lightweight data framework for ambitious web applications — universal, typed, reactive, and ready to scale."
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Guides
+      link: /guides
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API Docs
+      link: /api
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Universal
+    icon: 🌌
+    details: Works Natively With any Framework or Library
+  - title: Reactive
+    icon: ⚛️
+    details: Fine Grained Signals Based Reactivity
+  - title: Typed
+    icon: 💚
+    details: Fully Typed, Ready To Rock
+  - title: Blazing
+    icon: ⚡️
+    details: Unparalleled Size and Speed
+  - title: For Apps at Every Scale
+    icon: ♾️
+    details: Grows with your Apps / Teams / Business / Experience / Tech Choices
 ---
 
