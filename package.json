@@ -17,5 +17,8 @@
   "private": true,
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "volta": {
+    "node": "22.15.0"
   }
 }
