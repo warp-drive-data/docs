@@ -39,7 +39,6 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
           node-version-file: 'package.json'
-          cache: 'pnpm'
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
