@@ -5,19 +5,25 @@
 // into docs/guides
 async function main() {
   {
-    const proc = Bun.spawn(['rm', '-rf', 'warp-drive-clone'], {});
+    const proc = Bun.spawn(['rm', '-rf', 'warp-drive'], {});
     await proc.exited;
   }
   {
-    const proc = Bun.spawn(['git', 'clone', 'https://github.com/emberjs/data.git', 'warp-drive-clone', '--depth=1'], {});
+    const proc = Bun.spawn(['git', 'clone', 'https://github.com/emberjs/data.git', 'warp-drive', '--depth=1'], {});
     await proc.exited;
   }
   {
-    const proc = Bun.spawn(['rm', '-rf', 'docs/guides'], {});
+    const proc = Bun.spawn(['pnpm', 'install'], {
+      stdio: ['inherit', 'inherit', 'inherit'],
+      cwd: 'warp-drive',
+    });
     await proc.exited;
   }
   {
-    const proc = Bun.spawn(['cp', '-r', 'warp-drive-clone/guides', 'docs/guides'], {});
+    const proc = Bun.spawn(['bun', 'run', 'build'], {
+      stdio: ['inherit', 'inherit', 'inherit'],
+      cwd: 'warp-drive/docs-viewer',
+    });
     await proc.exited;
   }
 }

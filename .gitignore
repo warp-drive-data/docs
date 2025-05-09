@@ -1,5 +1,2 @@
-docs/.vitepress/dist
-docs/.vitepress/cache
-node_modules
-warp-drive-clone
-docs/guides
+warp-drive/
+node_modules/
