@@ -4,21 +4,21 @@
   "description": "Vitepress application that consumes documentation hosted in the primary WarpDrive monorepo and publishes the documentation to github pages",
   "main": "index.js",
   "scripts": {
-    "prepare": "bun index.ts"
+    "prepare": "bun index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.1",
-  "devDependencies": {
-    "vitepress": "^1.6.3",
-    "@types/bun": "latest"
-  },
   "private": true,
-  "dependencies": {
-    "typescript": "5.8.3"
+  "engines": {
+    "node": ">= 18.20.8",
+    "yarn": "use pnpm",
+    "npm": "use pnpm",
+    "pnpm": "10.8.1"
   },
   "volta": {
-    "node": "22.15.0"
-  }
+    "node": "22.3.0",
+    "pnpm": "10.8.1"
+  },
+  "packageManager": "pnpm@10.8.1"
 }

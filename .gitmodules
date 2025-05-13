@@ -1,0 +1,3 @@
+[submodule "warp-drive"]
+	path = warp-drive
+	url = https://github.com/emberjs/data.git
