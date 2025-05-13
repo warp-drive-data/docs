@@ -41,8 +41,8 @@ jobs:
           node-version-file: 'package.json'
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
-        run: bun install 
+      - name: Generate Artifact
+        run: bun index.js 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
