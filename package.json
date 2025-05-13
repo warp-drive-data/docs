@@ -1,14 +1,11 @@
 {
   "name": "warp-drive-docs",
   "version": "1.0.0",
-  "description": "Vitepress application that consumes documentation hosted in the primary WarpDrive monorepo and publishes the documentation to github pages",
-  "main": "index.js",
-  "scripts": {
-    "prepare": "bun index.js"
-  },
+  "description": "Consumes documentation hosted in the primary WarpDrive monorepo and publishes the documentation to github pages",
+  "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "engines": {
     "node": ">= 18.20.8",
