@@ -16,7 +16,7 @@ async function main() {
     await proc.exited;
   }
   {
-    const proc = Bun.spawn(['bun', 'run', 'build'], {
+    const proc = Bun.spawn(['pnpm', 'run', 'build'], {
       stdio: ['inherit', 'inherit', 'inherit'],
       cwd: 'warp-drive/docs-viewer',
     });
