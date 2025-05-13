@@ -5,7 +5,7 @@
 // into docs/guides
 async function main() {
   {
-    const proc = Bun.spawn(['git', 'submodule', 'update', '--remote'], {});
+    const proc = Bun.spawn(['git', 'clone', 'https://github.com/emberjs/data.git', 'warp-drive', '--depth=1'], {});
     await proc.exited;
   }
   {
