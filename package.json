@@ -11,11 +11,11 @@
     "node": ">= 18.20.8",
     "yarn": "use pnpm",
     "npm": "use pnpm",
-    "pnpm": "10.12.4"
+    "pnpm": "10.15.0"
   },
   "volta": {
-    "node": "24.3.0",
-    "pnpm": "10.12.4"
+    "node": "24.6.0",
+    "pnpm": "10.15.0"
   },
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.15.0"
 }
