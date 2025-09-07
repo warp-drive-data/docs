@@ -19,6 +19,7 @@ async function main() {
     const proc = Bun.spawn(['pnpm', 'run', 'build'], {
       stdio: ['inherit', 'inherit', 'inherit'],
       cwd: 'warp-drive/docs-viewer',
+      env: Object.assign({}, process.env, { HOSTNAME: 'https://warp-drive.io' }),
     });
     await proc.exited;
   }
