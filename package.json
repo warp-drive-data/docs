@@ -11,11 +11,17 @@
     "node": ">= 18.20.8",
     "yarn": "use pnpm",
     "npm": "use pnpm",
-    "pnpm": "10.15.0"
+    "pnpm": "11.25.0"
   },
   "volta": {
-    "node": "24.6.0",
-    "pnpm": "10.15.0"
+    "node": "24.20.0",
+    "pnpm": "11.25.0"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@11.25.0",
+  "devEngines": {
+    "runtime": [
+      { "name": "node", "version": "^24.20.0", "onFail": "download" },
+      { "name": "bun", "version": "^1.4.2", "onFail": "download" }
+    ]
+  }
 }
